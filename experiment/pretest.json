@@ -2,38 +2,136 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary function of a Graphic Annunciator (GA) in a control panel?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+         "a": "To display alarm messages",
+        "b": "To control the process variables",
+        "c": "To monitor the plant's performance",
+        "d": "To provide operator training"
+		
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is NOT a component of a mimic diagram?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Process symbols",
+        "b": "Piping and instrumentation diagrams (P&IDs)",
+        "c": "Alarm windows",
+        "d": "Control valves"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of a mimic diagram in a control panel?",
+      "answers": {
+        "a": "To display real-time process data",
+        "b": "To provide operator training",
+        "c": "To simulate plant operations",
+        "d": "To graphically represent the plant's layout and process flows"
       },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Which of the following is a common feature of a GA panel?",
+      "answers": {
+        "a": "Touch screen interface",
+        "b": "LED indicators",
+        "c": "Analog meters",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the term for the process of creating a mimic diagram for a specified plant?",
+      "answers": {
+        "a": "GA design",
+        "b": "Mimic diagram development",
+        "c": "Control panel design",
+        "d": "HMI development"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a benefit of using a mimic diagram in a control panel?",
+      "answers": {
+        "a": "Improved operator response time",
+        "b": "Inverse proportionality",
+        "c": "Increased plant efficiency",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "What is the primary advantage of using a GA panel over a traditional control panel?",
+      "answers": {
+        "a": "Cost savings",
+        "b": "Improved operator interface",
+        "c": "Increased reliability",
+        "d": "Faster alarm response time"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "Which of the following is a common symbol used in mimic diagrams to represent a pump?",
+      "answers": {
+        "a": "Circle",
+        "b": "Square",
+        "c": "Triangle",
+        "d": "Pentagon"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "What is the term for the process of configuring the GA panel to display specific alarm messages and process data?",
+      "answers": {
+        "a": "GA programming",
+        "b": "Mimic diagram configuration",
+        "c": "HMI configuration",
+        "d": "Control panel setup"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "Which of the following is a consideration when developing a mimic diagram for a specified plant?",
+      "answers": {
+        "a": "Plant layout and process flows",
+        "b": "Operator experience and training",
+        "c": "Control system architecture",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
+  
+  
+  
+  
+  
   ]
 }
