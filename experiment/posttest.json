@@ -2,38 +2,136 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of using color-coding in a mimic diagram?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To enhance visual appeal",
+        "b": "To distinguish between different process variables",
+        "c": "To indicate alarm priority levels ",
+        "d": "To represent different plant areas"
+		
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a best practice when designing a GA diagram?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Using 3D graphics to represent plant equipment  ",
+        "b": "Using a consistent symbol library throughout the diagram  ",
+        "c": "Including excessive text and labels  ",
+        "d": "Using bright colors to grab the operator's attention"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the term for the process of linking a GA diagram to a control system's database?",
+      "answers": {
+        "a": "Tagging",
+        "b": "Binding",
+        "c": "Configuring",
+        "d": "Integrating"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Which of the following is a benefit of using a mimic diagram in a control panel?",
+      "answers": {
+        "a": "Improved operator situational awareness",
+        "b": "Reduced plant downtime",
+        "c": "Increased operator workload",
+        "d": "Decreased plant efficiency"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the purpose of an "acknowledge" button on a GA panel?",
+      "answers": {
+        "a": "To silence an alarm",
+        "b": "To reset a process variable  ",
+        "c": "To acknowledge an alarm and prevent further notifications",
+        "d": "To shut down the plant"
+      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a common feature of a GA panel?",
+      "answers": {
+        "a": "Real-time trending",
+        "b": "Historical data logging",
+        "c": "Alarm prioritization",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "What is the term for the process of creating multiple GA diagrams for different plant areas or systems?",
+      "answers": {
+        "a": "Diagram segmentation",
+        "b": "Diagram hierarchy",
+        "c": "Diagram navigation",
+        "d": "Diagram organization"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "Which of the following is a consideration when designing a GA diagram for a plant with multiple operators?",
+      "answers": {
+        "a": "Operator experience and training",
+        "b": "Plant layout and process flows",
+        "c": "Type of raw materials used in production",
+        "d": "Environmental impact of the plant design"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "What is the purpose of a "nav tree" on a GA panel?",
+      "answers": {
+        "a": "To display alarm messages",
+        "b": "To provide navigation between different GA diagrams",
+        "c": "To display process variable values",
+        "d": "To provide operator training"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": " Which of the following is a benefit of using a GA panel with a mimic diagram?",
+      "answers": {
+        "a": "Improved plant safety",
+        "b": "Reduced operator errors",
+        "c": "Increased plant productivity",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     }
+  
+  
+  
+  
+  
   ]
 }
