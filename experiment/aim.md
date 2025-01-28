@@ -1,4 +1,4 @@
-# Aim 
+## Aim 
 Interpret GA drawing mimic diagram of a control panel of the process plant under consideration
 
 ## Objectives  
