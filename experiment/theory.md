@@ -10,3 +10,6 @@ The development of GA drawings and mimic diagrams must adhere to international s
 
 ###### Care During Design
 When designing GA drawings and mimic diagrams, care must be taken to ensure accuracy, clarity, and consistency. The designer must consider the operator's perspective, ensuring that the diagram is easy to understand and navigate. The use of standardized symbols, colors, and notation systems is essential to avoid confusion and misinterpretation. Additionally, the designer must ensure that the diagram is scalable, allowing for easy expansion or modification as the plant's layout and process flows change. Finally, the designer must verify the accuracy of the drawing and diagram through thorough testing and validation, ensuring that they accurately represent the plant's operation.
+
+![*Diagram1* ](images/dia.png)
+![*Diagram2* ](images/dia1.png)
