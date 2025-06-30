@@ -1,0 +1,271 @@
+/* .table1{ */
+/* 	background-color: #dee2e6; */
+/*     border-style: outset; */
+/*     border-color: black; */
+/* } */
+/* .texBoxStyle{ */
+/* border-bottom-style: dashed; */
+/*     border-block-start: none; */
+/*     border: none; */
+/*     border-bottom: 2px dashed black; */
+/*     outline: none; */
+/*     width: 100%; */
+/*     box-shadow: none;	 */
+/* } */
+
+.timerStyle {
+    background-color: #42494f;
+    color: #e8ac6e;
+    font-weight: 700;
+    font-family: 'digital-clock-font';
+    letter-spacing: 1px;
+}
+
+/* Container for all control boxes */
+.responsive-rectangle {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Individual control box */
+.control-box {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Square */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Image inside control box */
+.control-box img {
+  width: 90%;
+  height: 70%;
+  object-fit: contain;
+  display: block;
+}
+
+
+/* Hover effect */
+.control-box:hover {
+  background-color: grey;
+}
+.img-label {
+	        background-color: #9ad0d1;
+    border-style: solid;
+    padding: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(33 44 62);
+    word-wrap: break-word;
+}
+
+/* Adjust control-box to support vertical layout */
+.control-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+ .responsive-rectangle1 {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Keeps it responsive */
+  display: flex;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+
+
+/* .block { */
+/*   position: absolute; */
+/*   width: 10%; */
+/*   height: 8%; */
+/*  background-color: #dee2e6; */
+/*     border: 2px solid #aeb7c1; */
+/* } */
+
+  .responsive-rectangle {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.responsive-rectangle1 {
+   display: flex;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  border: 2px solid #ccc;
+}
+
+.left-half,.right-half {
+  flex: 1;
+  border: 1px dashed #999;
+  position: relative;
+  padding: 10px;
+}
+
+.dropped-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fit;
+  display: block;
+}
+
+/* .control-box.disabled { */
+/*   pointer-events: none; */
+/*   opacity: 0.5; */
+/* } */
+
+
+/* .draggable-img { */
+/*    max-width: 100%; */
+/*   height: auto; */
+/*   width: 80%; Adjust as needed for responsiveness */
+/*   cursor: move; */
+/* } */
+.dropzone {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Or set a specific height like 300px */
+  overflow: hidden;
+}
+
+.dropped-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+#boilerImage.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.inner-rectangle-left, .inner-rectangle-right{
+      width: 95%;
+    height: 100%;
+    background-color: #e4e7ea;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    border-style: solid;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666;
+}
+
+
+
+.block {
+  background-color: rgba(255, 0, 0, 0.3); /* Semi-transparent red */
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+  
+ footer {
+	background: rgb(125,176,169);
+background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
+	padding: 2px 10px;
+	border-top: 5px solid #2a333c;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+.btn1{
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+#msg{
+/* 	color: rgb(255, 0, 0); */
+    font-weight: bold;
+    font-size: large;
+}
+.droppable-block img {
+  position: relative; /* Needed for z-index to work */
+}
+.no-click {
+  pointer-events: none;
+   opacity: 0.6;
+}
+
+.titlePart {
+    font-size: larger;
+    font-weight: 700;
+    background-color: #343a40;
+    margin: 5px;
+    padding: 15px;
+    color: #fff;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.led {
+  
+  background-color: red; /* or green/yellow */
+  border-radius: 50%;
+  box-shadow: 0 0 10px red;
+  border: 1px solid #990000;
+  display: inline-block;
+}
+
+
+.responsive-rectangle2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+    
+  width: 100%;
+  height: 90vh; /* Full screen height */
+  border: 2px solid #ccc;
+}
+
+.left-half1,.right-half1 {
+  flex: 1;
+  width:100%;
+  border: 1px dashed #999;
+  position: relative;
+  padding: 10px;
+}
+
+.inner-rectangle-left1, .inner-rectangle-right1 {
+  width: 100%;
+  height: 100%; /* or whatever fixed/relative height you want */
+  background-color: #e4e7ea;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#indicatorSelect {
+  width: 100%;
+}
