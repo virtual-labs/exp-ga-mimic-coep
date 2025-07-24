@@ -1,5 +1,5 @@
 ## Aim 
-Interpret GA drawing mimic diagram of a control panel of the process plant under consideration
+Interpret GA (General Arrangement) drawing mimic diagram of a control panel of the process plant under consideration
 
 ## Objectives  
 -	To study various aspects related to General Arrangement drawing of a control panel
